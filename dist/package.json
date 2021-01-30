@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Yves Habersaat","email":"yveshabersaat@hotmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/reactVisualDemo004A41DA536548D0B1BCDED19492110E.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"reactVisualDemo","displayName":"React Visual Demo","guid":"reactVisualDemo004A41DA536548D0B1BCDED19492110E","visualClassName":"Visual","version":"1.0.0","description":"React based custom visual demo","supportUrl":"https://www.yhabersaat.ch","gitHubUrl":"https://github.com/yhabersaat"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

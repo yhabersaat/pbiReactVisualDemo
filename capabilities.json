@@ -1,0 +1,48 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Measure data",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "reactVisualDemo": {
+            "displayName": "Text",
+            "properties": {
+                "textColor": {
+                    "displayName": "Color",
+                    "description": "The color of the text.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "textValue": {
+                    "displayName": "Value",
+                    "description": "The text value to display.",
+                    "type": {
+                        "text": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "measure"
+            }
+        }
+    ]
+}
