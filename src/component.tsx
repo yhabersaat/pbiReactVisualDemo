@@ -10,14 +10,14 @@ export interface State {
 
 export const initialState: State = {
     textColor: "black",
-    textValue: "Hello GPPB Paris!",
+    textValue: "Hello GPPB 2021 Paris!",
     measureLabel: "",
     measureValue: "",
     size: 250
 }
 
 export class ReactVisualDemo extends React.Component<{}, State>{
-    
+   
     private static updateCallback: (data: object) => void = null;
     public state: State = initialState;
     private readonly defaultBackgroundColor = "white";
