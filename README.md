@@ -2,7 +2,7 @@
 
 Custom Power BI visual demo with React.js
 
-1) clone repos
-2) npm install
-3) pbiviz package
-4) upload .pbiviz file to Power BI admin portal
+1) fork this repository
+2) run <code>npm install</code>
+3) run <code>pbiviz package</code>
+4) upload .pbiviz file from dist folder to Power BI admin portal
