@@ -45,8 +45,8 @@ lib
 release
 solution
 temp
-.temp
-.temp/*
+.tmp
+.tmp/*
 
 # Visual Studio files
 .ntvs_analysis.dat
@@ -61,3 +61,6 @@ obj
 logs
 *.log
 npm-debug.log*
+
+webpack.statistics.dev.html
+webpack.statistics.prod.html
