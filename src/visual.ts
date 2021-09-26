@@ -57,6 +57,7 @@ export class Visual implements IVisual {
     }
 
     private clear() {
+        console.log("clear()");
         ReactVisualDemo.update(initialState);
     }
 

@@ -24,8 +24,8 @@ export class ReactVisualDemo extends React.Component<{}, State>{
 
     constructor(props: any) {
         super(props);
-        this.state = initialState;
         console.log("constructor()");
+        this.state = initialState;
     }
 
     render() {
