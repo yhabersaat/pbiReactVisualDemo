@@ -45,6 +45,7 @@ lib
 release
 solution
 temp
+.temp
 
 # Visual Studio files
 .ntvs_analysis.dat
