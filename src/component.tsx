@@ -10,7 +10,7 @@ export interface State {
 
 export const initialState: State = {
     textColor: "black",
-    textValue: "Hello GPPB 2021 Paris!",
+    textValue: "Hello Power BI Bootcamp 2021!",
     measureLabel: "",
     measureValue: "",
     size: 250

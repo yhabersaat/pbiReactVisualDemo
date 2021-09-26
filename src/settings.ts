@@ -5,7 +5,7 @@ import DataViewObjectsParser = dataViewObjectsParser.DataViewObjectsParser;
 
 export class ReactVisualDemoSettings {
     public textColor: string = "black";
-    public textValue: string = "Hello GPPB 2021 Paris!";
+    public textValue: string = "Hello Power BI Bootcamp 2021!";
 }
 
 export class VisualSettings extends DataViewObjectsParser {

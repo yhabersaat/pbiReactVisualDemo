@@ -1,5 +1,8 @@
 # pbiReactVisualDemo
 
-GPPB Paris 2021 custom Power BI visual demo with React.js
+Custom Power BI visual demo with React
 
-API version 3.5.1
+1) fork this repository
+2) run <code>npm install</code>
+3) run <code>pbiviz package</code>
+4) upload .pbiviz file to Power BI admin portal
