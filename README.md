@@ -1,6 +1,6 @@
 # pbiReactVisualDemo
 
-Custom Power BI visual based on React framework.
+Visual based on React framework from my session about Power BI custom visual development.
 
 1) clone this repos
 2) run <code>npm install</code>
