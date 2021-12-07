@@ -1,15 +1,15 @@
 {
     "visual": {
       "name": "pbiReactVisualDemo",
-      "displayName": "PBI React Visual Demo",
+      "displayName": "Power BI React Visual Demo",
       "guid": "reactVisualDemo004A41DA536548D0B1BCDED19492110E",
       "visualClassName": "Visual",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Custom Power BI visual based on React framework",
       "supportUrl": "https://www.yhabersaat.ch",
-      "gitHubUrl": "https://github.com/yhabersaat"
+      "gitHubUrl": "https://www.github.com/yhabersaat"
     },
-    "apiVersion": "3.8.4",
+    "apiVersion": "4.0.0",
     "author": {
       "name": "Yves Habersaat",
       "email": "yveshabersaat@hotmail.com"
