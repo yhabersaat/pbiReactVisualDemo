@@ -4,8 +4,8 @@
       "displayName": "Power BI React Visual Demo",
       "guid": "reactVisualDemo004A41DA536548D0B1BCDED19492110E",
       "visualClassName": "Visual",
-      "version": "1.2.0",
-      "description": "Custom Power BI visual based on React framework",
+      "version": "1.3.0",
+      "description": "Custom Power BI visual based on React",
       "supportUrl": "https://www.yhabersaat.ch",
       "gitHubUrl": "https://www.github.com/yhabersaat"
     },
