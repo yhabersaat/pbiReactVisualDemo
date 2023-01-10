@@ -12,15 +12,16 @@
     "@types/react": "^17.0.52",
     "@types/react-dom": "^17.0.18",
     "core-js": "3.2.1",
+    "json5": "^1.0.2",
     "path-parse": ">=1.0.7",
-    "powerbi-visuals-utils-dataviewutils": "2.2.1",
+    "powerbi-visuals-utils-dataviewutils": "^2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "minimist": "^1.2.7",
     "powerbi-visuals-api": "~4.0.0",
-    "ts-loader": "6.1.0",
+    "ts-loader": "^6.1.0",
     "tslint": "^5.18.0",
     "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "3.6.3"

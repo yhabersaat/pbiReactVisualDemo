@@ -22,11 +22,11 @@ export class Visual implements IVisual {
     private reactRoot: React.ComponentElement<any, any>;
     private settings: VisualSettings;
     private viewport: IViewport;
-  
+
     constructor(options: VisualConstructorOptions) {
         this.reactRoot = React.createElement(ReactVisualDemo, {});
         this.target = options.element;
-  
+
         ReactDOM.render(this.reactRoot, this.target);
     }
 
@@ -34,7 +34,7 @@ export class Visual implements IVisual {
 
         console.log(options);
 
-        if(options.dataViews && options.dataViews[0]){
+        if (options.dataViews && options.dataViews[0]) {
             const dataView: DataView = options.dataViews[0];
 
             this.viewport = options.viewport;

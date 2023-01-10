@@ -10,14 +10,14 @@ export interface State {
 
 export const initialState: State = {
     textColor: "black",
-    textValue: "Hello Power BI Bootcamp 2021!",
+    textValue: "Hello aMS Sophia!",
     measureLabel: "",
     measureValue: "",
     size: 250
 }
 
 export class ReactVisualDemo extends React.Component<{}, State>{
-   
+
     private static updateCallback: (data: object) => void = null;
     public state: State = initialState;
     private readonly defaultBackgroundColor = "white";
@@ -30,7 +30,7 @@ export class ReactVisualDemo extends React.Component<{}, State>{
 
     render() {
         console.log("render()");
-        
+
         const { textColor, textValue, measureLabel, measureValue, size } = this.state;
 
         const style: React.CSSProperties = { color: textColor, background: this.defaultBackgroundColor, width: size, height: size };
@@ -39,10 +39,10 @@ export class ReactVisualDemo extends React.Component<{}, State>{
             <div className="reactVisualDemo" style={style}>
                 <p>
                     {textValue}
-                    <br/>
+                    <br />
                     {measureLabel ? measureLabel : ""}
-                    <br/>
-                    {measureValue ? measureValue: ""}
+                    <br />
+                    {measureValue ? measureValue : ""}
                 </p>
             </div>
         );
@@ -50,7 +50,7 @@ export class ReactVisualDemo extends React.Component<{}, State>{
 
     public static update(newState: State) {
         console.log("update()");
-        if(typeof ReactVisualDemo.updateCallback === 'function'){
+        if (typeof ReactVisualDemo.updateCallback === 'function') {
             ReactVisualDemo.updateCallback(newState);
         }
     }
